@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <p>{{}}</p>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
@@ -13,7 +12,8 @@ export default {
   name: "app",
   data() {
     return {
-      numero: 2
+      numero: 2,
+      variable: "var1"
     };
   },
   components: {
